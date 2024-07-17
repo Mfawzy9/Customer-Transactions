@@ -1,0 +1,132 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ahmed Ali"
+    },
+    {
+      "id": 2,
+      "name": "Aya Elsayed"
+    },
+    {
+      "id": 3,
+      "name": "Mina Adel"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Reda"
+    },
+    {
+      "id": 5,
+      "name": "Mohamed Sayed"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Mohamed"
+    },
+    {
+      "id": 7,
+      "name": "Mohamed Ali"
+    },
+    {
+      "id": 8,
+      "name": "Reda Nabil"
+    },
+    {
+      "id": 9,
+      "name": "Ziad Mohamed"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "customer_id": 1,
+      "date": "2022-01-01",
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "customer_id": 1,
+      "date": "2022-01-02",
+      "amount": 2000
+    },
+    {
+      "id": 1,
+      "customer_id": 1,
+      "date": "2022-01-03",
+      "amount": 543
+    },
+    {
+      "id": 3,
+      "customer_id": 2,
+      "date": "2022-01-01",
+      "amount": 550
+    },
+    {
+      "id": 4,
+      "customer_id": 3,
+      "date": "2022-01-01",
+      "amount": 500
+    },
+    {
+      "id": 5,
+      "customer_id": 2,
+      "date": "2022-01-02",
+      "amount": 1300
+    },
+    {
+      "id": 6,
+      "customer_id": 4,
+      "date": "2022-01-01",
+      "amount": 750
+    },
+    {
+      "id": 7,
+      "customer_id": 3,
+      "date": "2022-01-02",
+      "amount": 1250
+    },
+    {
+      "id": 8,
+      "customer_id": 5,
+      "date": "2022-01-01",
+      "amount": 2500
+    },
+    {
+      "id": 9,
+      "customer_id": 5,
+      "date": "2022-01-02",
+      "amount": 56
+    },
+    {
+      "id": 6,
+      "customer_id": 6,
+      "date": "2022-01-01",
+      "amount": 6354
+    },
+    {
+      "id": 7,
+      "customer_id": 7,
+      "date": "2022-01-02",
+      "amount": 1234
+    },
+    {
+      "id": 7,
+      "customer_id": 7,
+      "date": "2022-01-02",
+      "amount": 32
+    },
+    {
+      "id": 8,
+      "customer_id": 8,
+      "date": "2022-01-01",
+      "amount": 643
+    },
+    {
+      "id": 9,
+      "customer_id": 9,
+      "date": "2022-01-02",
+      "amount": 543
+    }
+  ]
+}

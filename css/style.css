@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*--------------------------------------------*/
+
+.main .main-title {
+  width: fit-content;
+  cursor: default;
+}
+
+.main .main-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  height: 25%;
+  width: 100%;
+  background-color: #00416a;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.main .main-title:hover::after {
+  height: 65%;
+}
+
+.table > :not(caption) > * > * {
+  background-image: radial-gradient(#001b39, black);
+}
