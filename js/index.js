@@ -44,7 +44,7 @@ searchInput.addEventListener("input", () => {
 
 
 async function getCustomers() {
-  const api = await fetch("../data.json");
+  const api = await fetch('https://Mfawzy9.github.io/Customer-Transactions/data.json');
   const data = await api.json();
 
   customers = data.customers;
