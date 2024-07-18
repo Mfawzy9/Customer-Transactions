@@ -44,7 +44,7 @@ searchInput.addEventListener("input", () => {
 
 
 async function getCustomers() {
-  const api = await fetch("../data.json");
+  const api = await fetch('https://Mfawzy9.github.io/Customer-Transactions/data.json');
   const data = await api.json();
 
   customers = data.customers;
@@ -87,6 +87,7 @@ function displayCustomers(customers, transactions) {
     if (customerTransactions.length === 0) {
       customersContainer += `
       <tr>
+        <td>${customer.id}</td>
         <td>${customer.name}</td>
         <td>-</td>
         <td>-</td>
@@ -98,6 +99,8 @@ function displayCustomers(customers, transactions) {
 
     customersContainer += `
       <tr>
+
+        <td rowspan="${customerTransactions.length + 1}">${customer.id}</td>
         <td rowspan="${customerTransactions.length + 1}">${customer.name}</td>
       </tr>
     `;
